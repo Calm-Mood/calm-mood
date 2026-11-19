@@ -9,7 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 - Downloads Section linking to the Calm Mood Desktop
 ### Improved
-- **Website Theme** - Updated Color Schema
+- **Website Theme** - Updated Color Schema to the little-bit softer version
 
 ---
 

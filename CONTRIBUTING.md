@@ -115,11 +115,11 @@ Contributors are what make Calm Mood thrive. Your time, ideas, and creativity ar
 Take a deep breath, enjoy the process, and let’s make something beautiful together. 
 
 <!-- Reference Links -->
-[armenian-base-json]: https://github.com/ArsenGabrielyan/calm-mood/blob/main/i18n/hy.json
-[english-base-json]: https://github.com/ArsenGabrielyan/calm-mood/blob/main/i18n/en.json
-[issues-url]: https://github.com/ArsenGabrielyan/calm-mood/issues
-[new-feature-request-url]: https://github.com/ArsenGabrielyan/calm-mood/issues/new?assignees=&labels=&template=feature_request.md&title=
-[code-of-conduct-url]: https://github.com/ArsenGabrielyan/calm-mood/blob/main/CODE_OF_CONDUCT.md
+[armenian-base-json]: https://github.com/Calm-Mood/calm-mood/blob/main/i18n/hy.json
+[english-base-json]: https://github.com/Calm-Mood/calm-mood/blob/main/i18n/en.json
+[issues-url]: https://github.com/Calm-Mood/calm-mood/issues
+[new-feature-request-url]: https://github.com/Calm-Mood/calm-mood/issues/new?assignees=&labels=&template=feature_request.md&title=
+[code-of-conduct-url]: https://github.com/Calm-Mood/calm-mood/blob/main/CODE_OF_CONDUCT.md
 
 > GitHub [@ArsenGabrielyan](https://github.com/ArsenGabrielyan) &nbsp;&middot;&nbsp;
 > [Arsen's Website](https://arsen-2005.vercel.app)

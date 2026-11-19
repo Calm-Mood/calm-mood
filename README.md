@@ -10,9 +10,9 @@
 <p align="center">
      <a href="https://calm-mood.vercel.app/">View Demo</a>
      &nbsp;&middot;&nbsp;
-     <a href="https://github.com/ArsenGabrielyan/calm-mood/issues/new?assignees=&labels=&template=bug_report.md&title=">Report bug</a>
+     <a href="https://github.com/Calm-Mood/calm-mood/issues/new?assignees=&labels=&template=bug_report.md&title=">Report bug</a>
      &nbsp;&middot;&nbsp;
-     <a href="https://github.com/ArsenGabrielyan/calm-mood/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+     <a href="https://github.com/Calm-Mood/calm-mood/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
 </p>
 
 ![Version][version-shield]
@@ -103,21 +103,21 @@ Distributed under the MIT License. See [LICENSE.md][license-url] for more inform
 [star-history-chart]: https://api.star-history.com/svg?repos=ArsenGabrielyan/calm-mood&type=Date
 [star-history-url]: https://api.star-history.com/svg?repos=ArsenGabrielyan/calm-mood&type=Date
 [contributors-shield]: https://img.shields.io/github/contributors/ArsenGabrielyan/calm-mood.svg?style=for-the-badge
-[contributors-url]: https://github.com/ArsenGabrielyan/calm-mood/graphs/contributors
+[contributors-url]: https://github.com/Calm-Mood/calm-mood/graphs/contributors
 [top-contributors]: https://contrib.rocks/image?repo=ArsenGabrielyan/calm-mood
 [forks-shield]: https://img.shields.io/github/forks/ArsenGabrielyan/calm-mood.svg?style=for-the-badge
-[forks-url]: https://github.com/ArsenGabrielyan/calm-mood/network/members
+[forks-url]: https://github.com/Calm-Mood/calm-mood/network/members
 [stars-shield]: https://img.shields.io/github/stars/ArsenGabrielyan/calm-mood.svg?style=for-the-badge
-[stars-url]: https://github.com/ArsenGabrielyan/calm-mood/stargazers
+[stars-url]: https://github.com/Calm-Mood/calm-mood/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ArsenGabrielyan/calm-mood.svg?style=for-the-badge
-[issues-url]: https://github.com/ArsenGabrielyan/calm-mood/issues
+[issues-url]: https://github.com/Calm-Mood/calm-mood/issues
 [license-shield]: https://img.shields.io/github/license/ArsenGabrielyan/calm-mood?style=for-the-badge
-[license-url]: https://github.com/ArsenGabrielyan/calm-mood/blob/main/LICENSE.md
+[license-url]: https://github.com/Calm-Mood/calm-mood/blob/main/LICENSE.md
 [created-at-shield]: https://img.shields.io/github/created-at/ArsenGabrielyan/calm-mood?style=for-the-badge
 [repo-size-shield]: https://img.shields.io/github/repo-size/ArsenGabrielyan/calm-mood?style=for-the-badge
-[code-of-conduct-url]: https://github.com/ArsenGabrielyan/calm-mood/blob/main/CODE_OF_CONDUCT.md
-[contributing-url]: https://github.com/ArsenGabrielyan/calm-mood/blob/main/CONTRIBUTING.md
-[changelog-url]: https://github.com/ArsenGabrielyan/calm-mood/blob/main/CHANGELOG.md
+[code-of-conduct-url]: https://github.com/Calm-Mood/calm-mood/blob/main/CODE_OF_CONDUCT.md
+[contributing-url]: https://github.com/Calm-Mood/calm-mood/blob/main/CONTRIBUTING.md
+[changelog-url]: https://github.com/Calm-Mood/calm-mood/blob/main/CHANGELOG.md
 [website-url]: https://calm-mood.vercel.app/
 [version-shield]: https://img.shields.io/github/package-json/v/ArsenGabrielyan/calm-mood?style=for-the-badge
 [vercel-stats-shield]: https://vercelbadge.vercel.app/api/ArsenGabrielyan/calm-mood?style=for-the-badge

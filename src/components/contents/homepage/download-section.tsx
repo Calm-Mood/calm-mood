@@ -12,7 +12,7 @@ export default function DownloadSection(){
                     <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5 font-semibold border-primary border-b-2 pb-2.5 w-fit">{t("title")}</h2>
                     <p className="text-base md:text-lg text-center">{t("desc")}</p>
                     <Button asChild>
-                         <Link href="https://github.com/ArsenGabrielyan/calm-mood-desktop/releases/latest" target="_blank" rel="noreferrer nofollower noopener">
+                         <Link href="https://github.com/Calm-Mood/calm-mood-desktop/releases/latest" target="_blank" rel="noreferrer nofollower noopener">
                               <Download/>
                               {t("button")}
                          </Link>

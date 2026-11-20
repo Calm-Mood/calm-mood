@@ -1,16 +1,8 @@
-import { ISounds } from "./types"
 import {Birds, Rain, River, Beach, Train, Thunderstorm, Night, Lake, Waves, Waterfall} from "@/icons"
+import { cache } from "react";
+import { ISounds } from "./types";
 
-const soundBaseURL = "https://arsengabrielyan.github.io/calm-mood/sounds"
-const soundIds = [
-     "birds", "rain",
-     "river", "beach",
-     "train", "thunderstorm",
-     "night", "lake",
-     "waves", "waterfall"
-] as const
-export type SoundsType = typeof soundIds[number];
-const soundIcons = {
+export const SOUND_ICONS = {
      birds: Birds,
      rain: Rain,
      river: River,
@@ -21,10 +13,13 @@ const soundIcons = {
      lake: Lake,
      waves: Waves,
      waterfall: Waterfall
-} satisfies Record<SoundsType, React.ComponentType<React.SVGProps<SVGSVGElement>>>;
+} as const
 
-export const sounds: ISounds[] = soundIds.map(id=>({
-     id,
-     Icon: soundIcons[id],
-     url:`${soundBaseURL}/${id}.mp3`,
-}))
+export type SoundsType = keyof typeof SOUND_ICONS;
+
+export const getSounds = cache(async(): Promise<ISounds[]> => {
+     const res = await fetch("https://calm-mood.github.io/calm-mood/data/sounds.json")
+     if(!res.ok) return []
+     const data: ISounds[] = await res.json();
+     return data.sort(({id: a}, {id: b})=> a.localeCompare(b, undefined, { sensitivity: "base" }))
+})

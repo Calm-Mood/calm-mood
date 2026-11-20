@@ -1,6 +1,6 @@
 import SoundsContent from "@/components/contents/sounds";
 import { routing } from "@/i18n/routing";
-import { sounds } from "@/lib/sounds";
+import { getSounds } from "@/lib/sounds";
 import { absoluteLink, absoluteURL, createMetaAlternates, KEYWORDS } from "@/lib/utils";
 import { Metadata } from "next";
 import { hasLocale } from "next-intl";
@@ -9,7 +9,8 @@ import { notFound } from "next/navigation";
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
      const {locale} = await params;
-     if (!hasLocale(routing.locales, locale)) return notFound()
+     if (!hasLocale(routing.locales, locale)) return notFound();
+     const sounds = await getSounds()
      const t = await getTranslations("allSounds.page");
      const appTxt = await getTranslations("index")
      return {
@@ -43,8 +44,9 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
      }
 }
 
-export default function SoundsPage() {
+export default async function SoundsPage() {
+     const sounds = await getSounds()
      return (
-          <SoundsContent/>
+          <SoundsContent sounds={sounds}/>
      )
 }

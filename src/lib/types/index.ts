@@ -1,10 +1,10 @@
-import { getBreathingExerciseSchema, getPomodoroSchema } from "../schemas";
+import { LangCodeType } from "@/i18n/types";
 import { SoundsType } from "../sounds";
 
 export interface ISounds {
       id: SoundsType;
       url: string;
-      Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+      title: Record<LangCodeType,string>
 }
 export type PlayBackType = "idle" | "playing" | "paused"
 export enum NavLinks{

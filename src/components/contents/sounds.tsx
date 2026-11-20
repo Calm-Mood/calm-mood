@@ -1,14 +1,16 @@
 "use client"
 import AppLayout from "@/components/layout";
-import { sounds } from "@/lib/sounds";
 import { useTranslations } from "next-intl";
 import { Button } from "../ui/button";
 import { Pause, Play, Square } from "lucide-react";
 import SoundCard from "../sound-card";
 import { useState } from "react";
-import { PlayBackType } from "@/lib/types";
+import { ISounds, PlayBackType } from "@/lib/types";
 
-export default function SoundsContent(){
+interface SoundsContentProps{
+     sounds: ISounds[]
+}
+export default function SoundsContent({sounds}: SoundsContentProps){
      const t = useTranslations("allSounds.page")
      const [playback, setPlayback] = useState<PlayBackType>("idle")
      const handlePlayPause = () => {

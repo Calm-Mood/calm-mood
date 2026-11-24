@@ -18,7 +18,7 @@ export const SOUND_ICONS = {
 export type SoundsType = keyof typeof SOUND_ICONS;
 
 export const getSounds = cache(async(): Promise<ISounds[]> => {
-     const res = await fetch("https://calm-mood.github.io/calm-mood/data/sounds.json")
+     const res = await fetch("https://calm-mood.github.io/cdn/data/sounds.json")
      if(!res.ok) return []
      const data: ISounds[] = await res.json();
      return data.sort(({id: a}, {id: b})=> a.localeCompare(b, undefined, { sensitivity: "base" }))
